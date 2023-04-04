@@ -1,3 +1,25 @@
 body {
-    background-color: azure;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
+.sidebar {
+    background-color: lightblue;
+    grid-row: 1 / 8;
+}
+
+.header {
+    grid-column: 2 / 8;
+}
+
+.content {
+    background-color: grey;
+    grid-column: 2 / 8;
+    grid-row: 2/ 8;
 }
