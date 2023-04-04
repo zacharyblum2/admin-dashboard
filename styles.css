@@ -4,7 +4,7 @@ body {
 }
 
 button {
-    background-color: rgb(21, 175, 226);
+    background-color: #0ea5e9;
     border: none;
     border-radius: 15px;
     color: white;
@@ -18,7 +18,7 @@ button {
 }
 
 .sidebar {
-    background-color: rgb(21, 175, 226);
+    background-color: #0ea5e9;
     grid-row: 1 / 8;
     /* Easier to use display flex here rather than grid. */
     display: flex;
@@ -43,7 +43,7 @@ button {
 }
 
 .content {
-    background-color: rgb(226, 224, 224);
+    background-color: #f3f4f6;
     grid-column: 2 / 8;
     grid-row: 2/ 8; 
     display: grid;
