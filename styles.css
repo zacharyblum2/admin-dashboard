@@ -3,6 +3,14 @@ body {
     padding: 0px;
 }
 
+button {
+    background-color: rgb(21, 175, 226);
+    border: none;
+    border-radius: 15px;
+    color: white;
+    padding: 8px 20px;
+}
+
 .container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -10,12 +18,13 @@ body {
 }
 
 .sidebar {
-    background-color: lightblue;
+    background-color: rgb(21, 175, 226);
     grid-row: 1 / 8;
     /* Easier to use display flex here rather than grid. */
     display: flex;
     flex-direction: column;
     gap: 20px;
+    color: white;
 }
 
 .header {
@@ -34,7 +43,7 @@ body {
 }
 
 .content {
-    background-color: grey;
+    background-color: rgb(226, 224, 224);
     grid-column: 2 / 8;
     grid-row: 2/ 8; 
     display: grid;
