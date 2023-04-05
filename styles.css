@@ -29,6 +29,18 @@ button {
     color: white;
 }
 
+/* Make all sidebar icons white */
+.sidebar img {
+    filter: invert(97%) sepia(8%) saturate(766%) hue-rotate(225deg) brightness(117%) contrast(100%); 
+    height: 20px;
+    width: 20px
+}
+
+.logo img {
+    height: 50px;
+    width: 50px;
+}
+
 .header {
     grid-column: 2 / 8;
     display: grid;
