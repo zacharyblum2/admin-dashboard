@@ -115,6 +115,7 @@ button {
 
 .card {
     background-color: white;
+    background-image: linear-gradient(to right, rgb(255, 181, 71) 3%, rgba(0,0,0,0) 3%);
     width: 25rem;
     height: 16rem;
     border-radius: 1rem;
@@ -129,8 +130,8 @@ button {
 }
 
 .info {
-    padding-left: 1rem;
-    padding-top: 1rem;
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
 }
 
 .links {
