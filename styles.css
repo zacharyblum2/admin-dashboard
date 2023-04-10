@@ -36,7 +36,7 @@ button {
     width: 20px
 }
 
-.sidebar h5 {
+.sidebar h4 {
     display: flex;
     align-items: center;
     gap: 12px;
@@ -53,6 +53,8 @@ button {
     height: 50px;
     width: 50px;
 }
+
+
 
 .header {
     grid-column: 2 / 8;
