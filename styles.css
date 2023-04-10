@@ -68,26 +68,26 @@ button {
 }
 
 .bar img {
-    height: 20px;
-    width: 20px;
+    height: 1.5rem;
+    width: 1.5rem;
 }
 
 .left {
     display: flex;
-    gap: 20px;
+    gap: 1rem;
     align-items: center;
 }
 
 .right {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 1.5rem;
 }
 
 .searchbar {
-    height: 25px;
-    width: 375px;
-    border-radius: 20px;
+    height: 1.5rem;
+    width: 22rem;
+    border-radius: 2rem;
     background-color: #f3f4f6;
 }
 
@@ -115,22 +115,25 @@ button {
 
 .card {
     background-color: white;
-    width: 400px;
-    height: 250px;
-    border-radius: 10px;
+    width: 25rem;
+    height: 16rem;
+    border-radius: 1rem;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .card img {
-    width: 20px;
-    height: 20px;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 .links {
     display: flex;
     gap: 10px;
     align-self: flex-end;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
 }
 
 .announcements {
